@@ -2,5 +2,10 @@
   "name": "Know CHS",
   "description": "A basic website",
   "repository": "https://github.com/heroku/hogesonline.gitbub.io",
-  "keywords": ["chs", "express", "static"]
+  "keywords": ["chs", "express", "static"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
 }
